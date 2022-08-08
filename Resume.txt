@@ -1,0 +1,174 @@
+%------------------------
+% Resume Template
+% Author : Saksham Gupta
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Saksham Gupta}} & Email: \href{mailto:}{skshmgupt@gmail.com}\\
+  \href{https://github.com/Saksham-Gupta-30}{Github: ~~~~Saksham-Gupta-30} & 
+  Mobile:~~~+91 7303605295 \\
+  \href{https://www.linkedin.com/in/saksham-gupta-151517203/}{LinkedIn:~~~Saksham Gupta} \\
+  \href{https://leetcode.com/saksham30/}{Leetcode:~~~saksham30}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KIET Group Of Institutions}{U.P., India}
+      {Bachelor of Technology - Computer Science;  SGPA: 8.65}{July 2020 - June 2024}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Soft Computing, Networking, Databases}}}
+    \resumeSubheading{Vivekanand School}{Delhi, India}{Higher Secondary School: Percentage: 92.2}{April 2018 - April 2020}
+    \resumeSubHeadingListEnd
+    
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, C/C++, JavaScript, Solidity, HTML/CSS}
+	\resumeSubItem{Frameworks}{~~~~ReactJS, Tailwind}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~GIT}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Windows, Github}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Time Management}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{IIPC Of KIET Group Of Institutions}{Remote}
+    {Intern (Part-time)}{July 2021 - Oct 2021}
+    \resumeItemListStart
+        \resumeItem{Password Manager}
+          {Worked with Python and MySQL to create a Password Manager as a internship project to store passwords in a MySQL database}
+          \resumeItem{Mentorship}
+          {CSIT Department of KIET Group Of Institutions}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading{TravelBliss}{June 2022}{\href{https://travelbliss.netlify.app/}{Website}}{}
+\resumeItemListStart
+\resumeItem{About}{A website to help you find the best restaurants, hotels and attractions around any place over the world. Uses multiple APIs to fetch data such as Google Maps, openweather, AlanAI, etc.}
+\resumeItem{Tech stack}{HTML/CSS, ReactJS}
+\resumeItem{Code}{\href{https://github.com/Saksham-Gupta-30/TravelBliss}{Github Repository}}
+\resumeItemListEnd
+\resumeSubheading{Weather App}{April 2022}{\href{https://weather-h07huy9kq-saksham-gupta-30.vercel.app/}{Website}}{}
+\resumeSubHeadingListStart
+\resumeItem{About}{A website which uses \href{https://openweathermap.org/}{Open Weather API} to fetch data about weather and show it on the website.}
+\resumeItem{Tech stack}{HTML/CSS, Javascript}
+\resumeItem{Code}{\href{https://github.com/Saksham-Gupta-30/Weather-App}{Github Repository}}
+\resumeItemListEnd
+\resumeSubheading{DEFI}{March 2022}{Code}{}
+\resumeItemListStart
+\resumeItem{About}{A decentralised finance web application using solidity smart contracts to stake coin and gain interest as a new DAPP coin.}
+\resumeItem{Tech stack}{HTML/CSS, Javascript, ReactJS, Solidity, Truffle, Ganache}
+\resumeItem{Code}{\href{https://github.com/Saksham-Gupta-30/DEFI}{Github Repository}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------Awards-----------------
+\section{Certificates}
+\begin{description}[font=$\bullet$]
+\item {\href{https://coursera.org/share/6707d5f1cb8787cd77430d73e40b13a3}{Crash Course on Python} (Coursera) - July 2021}
+\item {\href{https://coursera.org/share/0d75ed28322db4931a0b6366194459ab}{Blockchain Basics} (Coursera) - Dec 2021}
+\item {\href{https://coursera.org/share/e182e94e36b0798efeff4e0ca3c12c6b}{Smart Contracts} (Coursera) - Jan 2022}
+\item {\href{https://coursera.org/share/5ce94ef9081dd88cc23cd9cae379dbea}{Decentralized Applications} (Coursera) - April 2022}
+
+\end{description}
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {Mentor at GryphHacks}{Ontario, Canada}
+    {Resolved any queries on HTML/CSS/ReactJS/Python/C++ of participants in the hackathon.}{Mar 2022 - Apr 2022}
+\vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    
+
+\resumeSubHeadingListEnd
+
+\end{document}
